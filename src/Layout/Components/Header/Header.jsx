@@ -1,11 +1,10 @@
-import { ShoppingCartSimple } from "@phosphor-icons/react";
 import styles from "./Header.module.scss";
-import { MagnifyingGlass, Heart, ShoppingCartSimple } from "@phosphor/react";
+import {Heart, MagnifyingGlass, PaperclipHorizontal, ShoppingCartSimple, StarFour} from "@phosphor-icons/react";
 
 export const Header = () => {
   return (
     <header className={styles.headerWrapper}>
-      <div className={styles.headerContent}>
+      <div className={styles.content}>
         <div className={styles.logo}>
           <img
             src="https://pixio.dexignzone.com/xhtml/images/logo.svg"
@@ -14,33 +13,40 @@ export const Header = () => {
         </div>
         <nav className={styles.nav}>
           <div className={styles.navEntity}>
-            <a href="/">Home</a>
+            <a href="/">Home <StarFour weight="fill" /></a>
           </div>
           <div className={styles.navEntity}>
-            <a href="/">Shop</a>
+            <a href="/">Shop <StarFour weight="fill" /></a>
           </div>
           <div className={styles.navEntity}>
-            <a href="/">Blog</a>
+            <a href="/">Blog <StarFour weight="fill" /></a>
           </div>
           <div className={styles.navEntity}>
-            <a href="/">Portfolio</a>
+            <a href="/">Portfolio <StarFour weight="fill" /></a>
           </div>
           <div className={styles.navEntity}>
-            <a href="/">Pages</a>
+            <a href="/">Pages <StarFour weight="fill" /></a>
           </div>
           <div className={styles.navEntity}>
             <a href="/">My Account</a>
           </div>
         </nav>
+
         <div className={styles.headerOptions}>
-          <div className={stylesOptionEntity}>
-            <MagnifyingGlass size={32} />
+          <div className={styles.optionEntity}>
+            <a href="/">Login/Register</a>
           </div>
-          <div className={stylesOptionEntity}>
-            <Heart size={32} />
+          <div className={styles.optionEntity}>
+            <MagnifyingGlass size={32}/>
           </div>
-          <div className={stylesOptionEntity}>
-            <ShoppingCartSimple size={32} />
+          <div className={styles.optionEntity}>
+            <Heart size={32}/>
+          </div>
+          <div className={styles.optionEntity}>
+            <ShoppingCartSimple size={32}/>
+          </div>
+          <div className={styles.optionEntity}>
+            <PaperclipHorizontal size={32} />
           </div>
         </div>
       </div>
