@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "img": "https://pixio.dexignzone.com/xhtml/images/shop/product/1.png",
+    "price": 80,
+    "salePrice": 69,
+    "getOff": "get 20% off",
+    "title": "Cozy Knit Cardigan Sweater"
+  },
+  {
+    "id": 2,
+    "img": "https://pixio.dexignzone.com/xhtml/images/shop/product/2.png",
+    "price": 70,
+    "salePrice": 49,
+    "getOff": "get 30% off",
+    "title": "Sophisticated Swagger Suit"
+  },
+  {
+    "id": 3,
+    "img": "https://pixio.dexignzone.com/xhtml/images/shop/product/3.png",
+    "price": 80,
+    "salePrice": 50,
+    "getOff": "get 15% off",
+    "title": "Classic Denim Skinny Jeans"
+  },
+  {
+    "id": 4,
+    "img": "https://pixio.dexignzone.com/xhtml/images/shop/product/4.png",
+    "price": 60,
+    "salePrice": null,
+    "getOff": "get 20% off",
+    "title": "Athletic Mesh Sports Leggings"
+  },
+  {
+    "id": 5,
+    "img": "https://pixio.dexignzone.com/xhtml/images/shop/product/5.png",
+    "price": 50,
+    "salePrice": null,
+    "getOff": "get 35% off",
+    "title": "Vintage Denim Overalls Shorts"
+  },
+  {
+    "id": 6,
+    "img": "https://pixio.dexignzone.com/xhtml/images/shop/product/6.png",
+    "price": 100,
+    "salePrice": 50,
+    "getOff": "get 50% off",
+    "title": "Satin Wrap Party Blouse"
+  },
+  {
+    "id": 7,
+    "img": "https://pixio.dexignzone.com/xhtml/images/shop/product/7.png",
+    "price": 90,
+    "salePrice": 75,
+    "getOff": "get 20% off",
+    "title": "Plaid Wool Winter Coat"
+  },
+  {
+    "id": 8,
+    "img": "https://pixio.dexignzone.com/xhtml/images/shop/product/8.png",
+    "price": 50,
+    "salePrice": 43,
+    "getOff": "get 20% off",
+    "title": "Water-Resistant Windbreaker Jacket"
+  }
+]
